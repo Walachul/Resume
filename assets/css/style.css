@@ -48,6 +48,12 @@ header{
 .ul-menu-color-resume{
     background-color: #930093;
 }
+.ul-menu-color-interests{
+    background-color: #6414C0;
+}
+.ul-menu-color-github{
+    background-color: #37CAAC;
+}
 .ul-menu-color-contact{
     background-color: #D2691E;
 }
@@ -83,14 +89,17 @@ h1,h2,h3,h4{
     margin-top:25px;
     margin-bottom: 40px;
 }
-
+.info{
+    text-align: justify;
+    font-size:18px;
+}
 /******** HEADING ********/
 .heading{
     margin-left: 50px;
 }
 
 .logo{
-    background:url("../images/me.jpg");
+    background:url("../images/profile_pic.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -147,6 +156,16 @@ h1,h2,h3,h4{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/******** Links Main Page in Paragraph ********/
+.sites{
+    color: #1E90FF;
+    text-decoration: none;
+    transition: all .5s;
+}
+.sites:hover{
+    text-decoration: none;
+    color:#D2691E ;
 }
 /******** HOVER.css ********/
 .hvr-sweep-to-bottom:before{
