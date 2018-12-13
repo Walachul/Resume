@@ -1,3 +1,3 @@
-## MiniProject RESUME
+##### Samuel Morarescu CV
 
-Landing page
+
